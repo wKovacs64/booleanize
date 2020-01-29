@@ -21,6 +21,10 @@
   "bugs": {
     "url": "https://github.com/wKovacs64/booleanize/issues"
   },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
