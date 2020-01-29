@@ -1,0 +1,52 @@
+{
+  "name": "@wkovacs64/booleanize",
+  "version": "0.0.0-semantically-released",
+  "description": "Small utility to coerce a value to its boolean equivalent",
+  "main": "dist/index.js",
+  "module": "dist/booleanize.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "!dist/test"
+  ],
+  "author": {
+    "name": "Justin Hall",
+    "email": "justin.r.hall@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wKovacs64/booleanize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wKovacs64/booleanize/issues"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@types/jest": "25.1.0",
+    "@wkovacs64/prettier-config": "1.0.2",
+    "codecov": "^3.6.2",
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.1.0",
+    "husky": "4.2.1",
+    "lint-staged": "10.0.4",
+    "semantic-release": "17.0.1",
+    "tsdx": "0.12.3",
+    "tslib": "1.10.0",
+    "typescript": "3.7.5"
+  }
+}
