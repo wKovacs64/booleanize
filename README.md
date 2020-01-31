@@ -37,7 +37,7 @@ SOME_CONDITIONAL=false
 ```
 
 ```ts
-import booleanize from '@wkovacs64/booleanize';
+import { booleanize } from '@wkovacs64/booleanize';
 
 Boolean(process.env.SOME_CONDITIONAL); // true 😕
 booleanize(process.env.SOME_CONDITIONAL); // false 😊

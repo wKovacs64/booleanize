@@ -1,4 +1,4 @@
-const booleanize = (
+export const booleanize = (
   input: boolean | number | bigint | string | null | undefined,
 ): boolean => {
   if (input === null) return false;
@@ -25,5 +25,3 @@ const booleanize = (
 
   throw new Error(`Unable to booleanize type: ${typeof input}`);
 };
-
-export default booleanize;

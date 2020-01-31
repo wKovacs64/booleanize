@@ -1,4 +1,4 @@
-import booleanize from '../src/index';
+import { booleanize } from '../src/index';
 
 describe('booleanize', () => {
   it('returns false for falsy values', () => {
