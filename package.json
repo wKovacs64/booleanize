@@ -26,6 +26,7 @@
     "access": "public"
   },
   "scripts": {
+    "cm": "git-cz",
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
