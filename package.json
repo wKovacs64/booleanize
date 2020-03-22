@@ -43,7 +43,7 @@
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "@types/jest": "25.1.4",
-    "@wkovacs64/prettier-config": "1.0.2",
+    "@wkovacs64/prettier-config": "2.0.0",
     "codecov": "3.6.5",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.1.0",
