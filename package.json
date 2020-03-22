@@ -27,6 +27,7 @@
   },
   "scripts": {
     "cm": "git-cz",
+    "format": "prettier --write \"**/*.{js,ts,tsx,html,json,md,yml,yaml}\"",
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
