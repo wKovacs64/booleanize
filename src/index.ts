@@ -1,6 +1,6 @@
-export const booleanize = (
+export function booleanize(
   input: boolean | number | bigint | string | null | undefined,
-): boolean => {
+): boolean {
   if (input === null) return false;
   if (typeof input === 'undefined') return false;
   if (typeof input === 'boolean') return input;
@@ -24,4 +24,4 @@ export const booleanize = (
   }
 
   throw new Error(`Unable to booleanize type: ${typeof input}`);
-};
+}
