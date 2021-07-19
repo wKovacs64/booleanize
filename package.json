@@ -45,7 +45,7 @@
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
     "@wkovacs64/prettier-config": "3.0.0",
-    "codecov": "3.8.2",
+    "codecov": "3.8.3",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "husky": "7.0.1",
