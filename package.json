@@ -3,11 +3,14 @@
   "version": "0.0.0-semantically-released",
   "description": "Small utility to coerce a value to its boolean equivalent",
   "main": "dist/index.js",
-  "module": "dist/booleanize.esm.js",
-  "typings": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
+  },
   "files": [
-    "dist",
-    "!dist/test"
+    "dist"
   ],
   "author": {
     "name": "Justin Hall",
@@ -28,11 +31,12 @@
   "scripts": {
     "cm": "git-cz",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,html,css,json,md,mdx,yml,yaml}\"",
+    "build": "tsup ./src/index.ts --format cjs,esm --dts --sourcemap --clean",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch --onlyChanged",
+    "lint": "eslint --ext \".js,.jsx,.ts,.tsx\" .",
     "husky:install": "husky install",
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint .",
     "prepare": "npm-run-all husky:install build"
   },
   "config": {
@@ -42,18 +46,24 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/preset-env": "7.16.4",
+    "@babel/preset-typescript": "7.16.0",
     "@commitlint/cli": "15.0.0",
     "@commitlint/config-conventional": "15.0.0",
+    "@types/jest": "27.0.3",
     "@wkovacs64/prettier-config": "3.0.0",
     "codecov": "3.8.3",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
+    "eslint": "8.3.0",
+    "eslint-plugin-wkovacs64": "13.8.0",
     "husky": "7.0.4",
+    "jest": "27.4.0",
     "lint-staged": "12.1.2",
     "npm-run-all": "4.1.5",
     "semantic-release": "18.0.1",
-    "tsdx": "0.14.1",
-    "tslib": "2.3.1",
+    "tsup": "5.10.0",
     "typescript": "4.5.2"
   }
 }
