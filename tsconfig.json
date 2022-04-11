@@ -6,7 +6,8 @@
     "moduleResolution": "node",
     "noEmit": true,
     "importsNotUsedAsValues": "error",
-    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false,
     "types": ["vitest/globals"]
   }
 }
