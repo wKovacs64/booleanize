@@ -30,6 +30,7 @@
   },
   "scripts": {
     "build": "tsup ./src/index.ts --format cjs,esm --dts --sourcemap --clean",
+    "check-types": "tsc --noEmit",
     "format": "prettier --cache --write .",
     "lint": "eslint .",
     "husky:install": "husky install",
