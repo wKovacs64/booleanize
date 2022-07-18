@@ -51,12 +51,12 @@ This module is distributed under the [MIT License][license].
   https://img.shields.io/npm/v/@wkovacs64/booleanize.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/@wkovacs64/booleanize
 [ci-image]:
-  https://img.shields.io/circleci/project/github/wKovacs64/booleanize/master.svg?style=flat-square
+  https://img.shields.io/circleci/project/github/wKovacs64/booleanize/main.svg?style=flat-square
 [ci-url]: https://circleci.com/gh/wKovacs64/booleanize
 [coverage-image]:
-  https://img.shields.io/codecov/c/github/wKovacs64/booleanize/master.svg?style=flat-square
-[coverage-url]: https://codecov.io/gh/wKovacs64/booleanize/branch/master
+  https://img.shields.io/codecov/c/github/wKovacs64/booleanize/main.svg?style=flat-square
+[coverage-url]: https://codecov.io/gh/wKovacs64/booleanize/branch/main
 [semantic-release-image]:
   https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
-[license]: https://github.com/wKovacs64/booleanize/tree/master/LICENSE
+[license]: https://github.com/wKovacs64/booleanize/tree/main/LICENSE
