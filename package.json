@@ -30,7 +30,7 @@
   },
   "scripts": {
     "cm": "git-cz",
-    "format": "prettier --write .",
+    "format": "prettier --cache --write .",
     "build": "tsup ./src/index.ts --format cjs,esm --dts --sourcemap --clean",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
