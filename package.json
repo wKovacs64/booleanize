@@ -47,7 +47,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.2.0",
     "@commitlint/config-conventional": "17.2.0",
-    "@types/node": "18.11.8",
+    "@types/node": "18.11.9",
     "@types/ws": "8.5.3",
     "@vitest/coverage-c8": "0.24.4",
     "@wkovacs64/prettier-config": "3.0.2",
