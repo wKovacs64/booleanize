@@ -2,8 +2,7 @@
 
 _A small utility to coerce a value to its boolean equivalent._
 
-[![npm Version][npm-image]][npm-url]
-[![Build Status][ci-image]][ci-url]
+[![npm Version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url]
 [![Code Coverage][coverage-image]][coverage-url]
 [![semantic-release][semantic-release-image]][semantic-release-url]
 
