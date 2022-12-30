@@ -45,7 +45,7 @@
     "@changesets/changelog-github": "0.4.8",
     "@changesets/cli": "2.26.0",
     "@types/node": "18.11.18",
-    "@types/ws": "8.5.3",
+    "@types/ws": "8.5.4",
     "@vitest/coverage-c8": "0.26.2",
     "@wkovacs64/prettier-config": "3.0.3",
     "c8": "7.12.0",
