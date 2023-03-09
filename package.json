@@ -44,7 +44,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "0.4.8",
     "@changesets/cli": "2.26.0",
-    "@types/node": "18.14.6",
+    "@types/node": "18.15.0",
     "@types/ws": "8.5.4",
     "@vitest/coverage-c8": "0.29.2",
     "@wkovacs64/prettier-config": "3.0.3",
