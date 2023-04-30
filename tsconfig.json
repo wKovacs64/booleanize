@@ -6,7 +6,7 @@
     "strict": true,
     "moduleResolution": "node",
     "noEmit": true,
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "esModuleInterop": true,
     "skipLibCheck": false,
     "types": ["vitest/globals"]
