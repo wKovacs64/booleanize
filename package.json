@@ -45,7 +45,7 @@
     "@changesets/cli": "2.26.1",
     "@types/node": "18.16.16",
     "@types/ws": "8.5.4",
-    "@vitest/coverage-c8": "0.31.3",
+    "@vitest/coverage-c8": "0.31.4",
     "@wkovacs64/prettier-config": "3.0.3",
     "c8": "7.14.0",
     "cpy-cli": "4.2.0",
@@ -55,6 +55,6 @@
     "prettier": "2.8.8",
     "tsup": "6.7.0",
     "typescript": "5.0.4",
-    "vitest": "0.31.3"
+    "vitest": "0.31.4"
   }
 }
