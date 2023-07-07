@@ -8,7 +8,7 @@
     "noEmit": true,
     "verbatimModuleSyntax": true,
     "esModuleInterop": true,
-    "skipLibCheck": false,
+    "skipLibCheck": true,
     "types": ["vitest/globals"]
   }
 }
