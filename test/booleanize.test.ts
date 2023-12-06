@@ -28,12 +28,12 @@ describe('booleanize', () => {
   it('throws on unsupported input types', () => {
     // @ts-expect-error
     expect(() => booleanize({})).toThrowErrorMatchingInlineSnapshot(
-      `"Unable to booleanize type: object"`,
+      `[Error: Unable to booleanize type: object]`,
     );
 
     expect(() =>
       // @ts-expect-error
       booleanize(Symbol('false')),
-    ).toThrowErrorMatchingInlineSnapshot(`"Unable to booleanize type: symbol"`);
+    ).toThrowErrorMatchingInlineSnapshot(`[Error: Unable to booleanize type: symbol]`);
   });
 });
