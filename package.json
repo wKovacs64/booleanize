@@ -2,11 +2,12 @@
   "name": "@wkovacs64/booleanize",
   "version": "2.0.2",
   "description": "Small utility to coerce a value to its boolean equivalent",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
   "exports": {
-    "require": "./dist/index.js",
-    "import": "./dist/index.mjs"
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.js"
   },
   "files": [
     "dist"
