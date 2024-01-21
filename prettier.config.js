@@ -1,6 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-const prettierConfig = require('@wkovacs64/prettier-config');
+import prettierConfig from '@wkovacs64/prettier-config';
 
-module.exports = {
-  ...prettierConfig,
-};
+export default prettierConfig;
