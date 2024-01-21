@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
     "lib": ["dom", "esnext"],
     "strict": true,
-    "moduleResolution": "node",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "noEmit": true,
     "verbatimModuleSyntax": true,
     "esModuleInterop": true,
