@@ -52,7 +52,7 @@
     "eslint": "8.56.0",
     "eslint-plugin-wkovacs64": "15.1.0",
     "npm-run-all2": "6.1.2",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "tsup": "8.0.1",
     "typescript": "5.3.3",
     "vitest": "1.2.2"
