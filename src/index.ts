@@ -1,6 +1,4 @@
-export function booleanize(
-  input: boolean | number | bigint | string | null | undefined,
-): boolean {
+export function booleanize(input: boolean | number | bigint | string | null | undefined): boolean {
   if (input === null) return false;
   if (typeof input === 'undefined') return false;
   if (typeof input === 'boolean') return input;

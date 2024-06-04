@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "config:js-lib",
-    ":semanticCommits",
-    ":semanticCommitTypeAll(chore)"
-  ],
+  "extends": ["config:js-lib", ":semanticCommits", ":semanticCommitTypeAll(chore)"],
   "commitMessageTopic": "{{depName}}",
   "automergeType": "branch",
   "automerge": true,
