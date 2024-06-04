@@ -34,8 +34,6 @@ describe('booleanize', () => {
     expect(() =>
       // @ts-expect-error
       booleanize(Symbol('false')),
-    ).toThrowErrorMatchingInlineSnapshot(
-      `[Error: Unable to booleanize type: symbol]`,
-    );
+    ).toThrowErrorMatchingInlineSnapshot(`[Error: Unable to booleanize type: symbol]`);
   });
 });

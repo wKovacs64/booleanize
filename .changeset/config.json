@@ -1,9 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
-  "changelog": [
-    "@changesets/changelog-github",
-    { "repo": "wKovacs64/booleanize" }
-  ],
+  "changelog": ["@changesets/changelog-github", { "repo": "wKovacs64/booleanize" }],
   "commit": false,
   "fixed": [],
   "linked": [],
