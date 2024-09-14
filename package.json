@@ -47,7 +47,7 @@
     "@changesets/cli": "2.27.8",
     "@types/node": "20.16.5",
     "@types/ws": "8.5.12",
-    "@vitest/coverage-v8": "2.1.0",
+    "@vitest/coverage-v8": "2.1.1",
     "@wkovacs64/eslint-config": "7.2.5",
     "@wkovacs64/prettier-config": "4.1.1",
     "eslint": "8.57.0",
@@ -55,6 +55,6 @@
     "prettier": "3.3.3",
     "tsup": "8.2.4",
     "typescript": "5.6.2",
-    "vitest": "2.1.0"
+    "vitest": "2.1.1"
   }
 }
