@@ -48,7 +48,7 @@
     "@types/node": "22.9.3",
     "@types/ws": "8.5.13",
     "@vitest/coverage-v8": "2.1.5",
-    "@wkovacs64/eslint-config": "7.3.1",
+    "@wkovacs64/eslint-config": "7.4.0",
     "@wkovacs64/prettier-config": "4.1.1",
     "eslint": "8.57.1",
     "prettier": "3.3.3",
