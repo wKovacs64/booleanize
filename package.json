@@ -51,7 +51,7 @@
     "@wkovacs64/eslint-config": "7.4.0",
     "@wkovacs64/prettier-config": "4.1.1",
     "eslint": "9.15.0",
-    "prettier": "3.4.0",
+    "prettier": "3.4.1",
     "tsup": "8.3.5",
     "typescript": "5.7.2",
     "vitest": "2.1.5"
