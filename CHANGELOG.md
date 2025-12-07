@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.0.0
+
+### Major Changes
+
+- [#137](https://github.com/wKovacs64/booleanize/pull/137) [`323f6fd`](https://github.com/wKovacs64/booleanize/commit/323f6fd864e31162581d2b0d886f6877309feedc) Thanks [@wKovacs64](https://github.com/wKovacs64)! - Drop CJS output and require Node >= 22.12.0
+
 ## 2.0.2
 
 ### Patch Changes
