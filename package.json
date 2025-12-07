@@ -27,7 +27,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc --project tsconfig.build.json",
+    "build": "del-cli dist && tsc --project tsconfig.build.json",
     "changeset": "changeset",
     "changeset:version": "changeset version && npm install --package-lock-only",
     "changeset:publish": "changeset publish",
@@ -47,6 +47,7 @@
     "@vitest/coverage-v8": "4.0.14",
     "@wkovacs64/eslint-config": "7.11.1",
     "@wkovacs64/prettier-config": "4.2.2",
+    "del-cli": "7.0.0",
     "eslint": "9.39.1",
     "prettier": "3.7.2",
     "typescript": "5.9.3",
