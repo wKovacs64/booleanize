@@ -26,15 +26,16 @@
   "publishConfig": {
     "access": "public"
   },
+  "packageManager": "pnpm@10.25.0",
   "scripts": {
     "build": "del-cli dist && tsc --project tsconfig.build.json",
     "changeset": "changeset",
-    "changeset:version": "changeset version && npm install --package-lock-only",
+    "changeset:version": "changeset version && pnpm install",
     "changeset:publish": "changeset publish",
     "format": "prettier --cache --write .",
     "format:check": "prettier --cache --check .",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
-    "prepare": "npm run --silent build",
+    "prepare": "pnpm run --silent build",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "test:watch": "vitest watch",
