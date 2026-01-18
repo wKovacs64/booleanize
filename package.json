@@ -1,6 +1,6 @@
 {
   "name": "@wkovacs64/booleanize",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Small utility to coerce a value to its boolean equivalent",
   "type": "module",
   "main": "dist/index.js",
