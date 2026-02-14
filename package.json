@@ -27,7 +27,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@10.28.2",
+  "packageManager": "pnpm@10.29.1",
   "scripts": {
     "build": "del-cli dist && tsc --project tsconfig.build.json",
     "changeset": "changeset",
