@@ -1,33 +1,29 @@
 {
   "name": "@wkovacs64/booleanize",
   "version": "3.0.1",
+  "private": false,
   "description": "Small utility to coerce a value to its boolean equivalent",
-  "type": "module",
-  "main": "dist/index.js",
-  "exports": "./dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "bugs": {
+    "url": "https://github.com/wKovacs64/booleanize/issues"
+  },
+  "license": "MIT",
   "author": {
     "name": "Justin Hall",
     "email": "justin.r.hall@gmail.com"
   },
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wKovacs64/booleanize.git"
   },
-  "bugs": {
-    "url": "https://github.com/wKovacs64/booleanize/issues"
-  },
-  "engines": {
-    "node": ">=22.12.0"
-  },
-  "private": false,
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "pnpm@10.30.1",
   "scripts": {
     "build": "del-cli dist && tsc --project tsconfig.build.json",
     "changeset": "changeset",
@@ -53,5 +49,9 @@
     "oxfmt": "0.35.0",
     "typescript": "5.9.3",
     "vitest": "4.0.18"
-  }
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "packageManager": "pnpm@10.30.1"
 }
