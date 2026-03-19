@@ -42,13 +42,13 @@
     "@changesets/changelog-github": "0.6.0",
     "@changesets/cli": "2.30.0",
     "@types/node": "24.12.0",
-    "@vitest/coverage-v8": "4.0.18",
+    "@vitest/coverage-v8": "4.1.0",
     "@wkovacs64/eslint-config": "7.14.0",
     "del-cli": "7.0.0",
     "eslint": "9.39.4",
     "oxfmt": "0.40.0",
     "typescript": "5.9.3",
-    "vitest": "4.0.18"
+    "vitest": "4.1.0"
   },
   "engines": {
     "node": ">=22.12.0"
