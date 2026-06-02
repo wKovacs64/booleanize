@@ -3,7 +3,6 @@
 _A small utility to coerce a value to its boolean equivalent._
 
 [![npm Version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url]
-[![Code Coverage][coverage-image]][coverage-url]
 
 ## Installation
 
@@ -49,6 +48,4 @@ This module is distributed under the [MIT License][license].
 [npm-url]: https://www.npmjs.com/package/@wkovacs64/booleanize
 [ci-image]: https://img.shields.io/github/actions/workflow/status/wKovacs64/booleanize/ci.yml?logo=github&style=flat-square
 [ci-url]: https://github.com/wKovacs64/booleanize/actions?query=workflow%3Aci
-[coverage-image]: https://img.shields.io/codecov/c/github/wKovacs64/booleanize/main.svg?style=flat-square
-[coverage-url]: https://codecov.io/gh/wKovacs64/booleanize/branch/main
 [license]: https://github.com/wKovacs64/booleanize/tree/main/LICENSE
