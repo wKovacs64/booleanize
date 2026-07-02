@@ -43,7 +43,7 @@
     "@changesets/cli": "2.31.0",
     "@types/node": "24.13.2",
     "@vitest/coverage-v8": "4.1.9",
-    "@wkovacs64/eslint-config": "7.14.1",
+    "@wkovacs64/eslint-config": "8.0.0",
     "del-cli": "7.0.0",
     "eslint": "9.39.4",
     "oxfmt": "0.56.0",
