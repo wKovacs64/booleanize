@@ -1,29 +1,47 @@
 {
-  "name": "@wkovacs64/booleanize",
-  "version": "3.0.1",
-  "private": false,
-  "description": "Small utility to coerce a value to its boolean equivalent",
-  "bugs": {
-    "url": "https://github.com/wKovacs64/booleanize/issues"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Justin Hall",
-    "email": "justin.r.hall@gmail.com"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wKovacs64/booleanize.git"
   },
-  "files": [
-    "dist"
-  ],
-  "type": "module",
-  "main": "dist/index.js",
+  "description": "Small utility to coerce a value to its boolean equivalent",
   "exports": "./dist/index.js",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "author": {
+    "name": "Justin Hall",
+    "email": "justin.r.hall@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wKovacs64/booleanize/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "packageManager": "pnpm@11.21.0",
+  "private": false,
+  "version": "3.0.1",
+  "devDependencies": {
+    "@wkovacs64/eslint-config": "8.0.3",
+    "vitest": "4.1.10",
+    "oxlint-tsgolint": "7.0.2001",
+    "del-cli": "7.0.0",
+    "@changesets/changelog-github": "1.0.0",
+    "@changesets/cli": "3.0.0",
+    "typescript": "6.0.3",
+    "@wkovacs64/oxlint-config": "0.1.0",
+    "oxfmt": "0.63.0",
+    "oxlint": "1.77.0",
+    "@types/node": "24.13.3",
+    "@vitest/coverage-v8": "4.1.10"
+  },
+  "type": "module",
+  "name": "@wkovacs64/booleanize",
+  "license": "MIT",
   "scripts": {
     "build": "del-cli dist && tsc --project tsconfig.build.json",
     "changeset": "changeset",
@@ -31,27 +49,11 @@
     "changeset:publish": "changeset publish",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
-    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
+    "lint": "oxlint --type-aware .",
     "prepare": "pnpm run --silent build",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "test:watch": "vitest watch",
     "typecheck": "tsc"
-  },
-  "devDependencies": {
-    "@changesets/changelog-github": "1.0.0",
-    "@changesets/cli": "3.0.0",
-    "@types/node": "24.13.3",
-    "@vitest/coverage-v8": "4.1.10",
-    "@wkovacs64/eslint-config": "8.0.3",
-    "del-cli": "7.0.0",
-    "eslint": "9.39.5",
-    "oxfmt": "0.63.0",
-    "typescript": "6.0.3",
-    "vitest": "4.1.10"
-  },
-  "engines": {
-    "node": ">=22.12.0"
-  },
-  "packageManager": "pnpm@11.21.0"
+  }
 }
