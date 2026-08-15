@@ -31,7 +31,7 @@
     "changeset:publish": "changeset publish",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
-    "lint": "oxlint .",
+    "lint": "oxlint",
     "prepare": "pnpm run --silent build",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
