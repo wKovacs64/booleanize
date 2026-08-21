@@ -42,7 +42,7 @@
     "@changesets/changelog-github": "1.0.0",
     "@changesets/cli": "3.0.0",
     "@types/node": "24.13.3",
-    "@vitest/coverage-v8": "4.1.10",
+    "@vitest/coverage-v8": "4.1.11",
     "@wkovacs64/eslint-config": "8.0.3",
     "@wkovacs64/oxlint-config": "0.1.0",
     "del-cli": "7.0.0",
@@ -50,7 +50,7 @@
     "oxlint": "1.78.0",
     "oxlint-tsgolint": "7.0.2001",
     "typescript": "7.0.2",
-    "vitest": "4.1.10"
+    "vitest": "4.1.11"
   },
   "engines": {
     "node": ">=22.12.0"
