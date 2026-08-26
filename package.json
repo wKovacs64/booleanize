@@ -44,7 +44,7 @@
     "@types/node": "24.13.3",
     "@vitest/coverage-v8": "4.1.11",
     "@wkovacs64/eslint-config": "8.0.3",
-    "@wkovacs64/oxlint-config": "0.2.0",
+    "@wkovacs64/oxlint-config": "0.2.1",
     "del-cli": "7.0.0",
     "oxfmt": "0.64.0",
     "oxlint": "1.79.0",
