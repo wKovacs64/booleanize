@@ -41,7 +41,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "1.0.1",
     "@changesets/cli": "3.0.2",
-    "@types/node": "24.13.3",
+    "@types/node": "24.13.4",
     "@vitest/coverage-v8": "4.1.11",
     "@wkovacs64/eslint-config": "8.0.3",
     "@wkovacs64/oxlint-config": "0.2.2",
