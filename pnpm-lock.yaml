@@ -182,8 +182,8 @@ importers:
         specifier: 0.3.0
         version: 0.3.0(oxlint-tsgolint@7.0.2003)(oxlint@1.87.0(oxlint-tsgolint@7.0.2003))
       del-cli:
-        specifier: 8.0.0
-        version: 8.0.0
+        specifier: 8.0.1
+        version: 8.0.1
       oxfmt:
         specifier: 0.72.0
         version: 0.72.0
@@ -1102,8 +1102,8 @@ packages:
   dataloader@2.2.3:
     resolution: {integrity: sha512-y2krtASINtPFS1rSDjacrFgn1dcUuoREVabwlOGOe4SdxenREqwjwjElAdwvbGM7kgZz9a3KVicWR7vcz8rnzA==}
 
-  del-cli@8.0.0:
-    resolution: {integrity: sha512-H5Ad74ydhJDLp1HHQbbcWP4qq+aHOeVoE9IIqsTJdSDSeF17HxvfY8UCLpfjBBk9OR8J5olkJO3T8fOBXKeCMg==}
+  del-cli@8.0.1:
+    resolution: {integrity: sha512-Z4+xLjVJs9dMN4gDMRfY/7b7WItNOB5EOKu9BenbJD63olx9YM5SU/DEuDFWvN0B1BdGIzejCJFgPt2vIGwj1A==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -2059,7 +2059,7 @@ snapshots:
 
   dataloader@2.2.3: {}
 
-  del-cli@8.0.0:
+  del-cli@8.0.1:
     dependencies:
       del: 9.0.1
       meow: 14.1.0
