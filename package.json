@@ -46,7 +46,7 @@
     "@wkovacs64/oxlint-config": "0.4.0",
     "del-cli": "8.0.1",
     "oxfmt": "0.74.0",
-    "oxlint": "1.88.0",
+    "oxlint": "1.89.0",
     "oxlint-tsgolint": "7.0.2004",
     "typescript": "7.0.2",
     "vitest": "5.0.5"
