@@ -1,9 +1,15 @@
+// oxlint-disable anti-slop/no-runtime-typeof -- booleanize is the boundary parser: dispatching on runtime type is its job
 export function booleanize(input: boolean | number | bigint | string | null | undefined): boolean {
   if (input === null) return false;
+
   if (typeof input === "undefined") return false;
+
   if (typeof input === "boolean") return input;
+
   if (typeof input === "number") return Boolean(input);
+
   if (typeof input === "bigint") return Boolean(input);
+
   if (typeof input === "string") {
     if (input.length === 0) return false;
 
