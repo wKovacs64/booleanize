@@ -10,7 +10,7 @@
   "packageRules": [
     {
       "matchDatasources": ["npm"],
-      "minimumReleaseAge": "3 days"
+      "minimumReleaseAge": "1 day"
     },
     {
       "matchPackageNames": ["oxlint"],
